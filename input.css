@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+.btn {
+    @apply text-white font-bold text-xl bg-gradient-to-r from-orange-500 to-rose-700 p-5 rounded-lg;
+}
+.title {
+    @apply text-5xl font-extrabold text-[#1C1C1C];
+}
+.description {
+    @apply text-base font-medium leading-7 text-[#777777] mt-7;
+}
+@tailwind utilities;
+.padding {
+    @apply px-56;
+}
+.padding-sm {
+    @apply px-8;
+}
