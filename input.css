@@ -9,10 +9,10 @@
 .description {
     @apply text-base font-medium leading-7 text-[#777777] mt-7;
 }
-@tailwind utilities;
-.padding {
+.container {
     @apply px-56;
 }
-.padding-sm {
+.container-sm {
     @apply px-8;
 }
+@tailwind utilities;
